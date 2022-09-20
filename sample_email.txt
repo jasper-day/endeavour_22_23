@@ -1,0 +1,28 @@
+Hello $NAME,
+
+Based on your response to the Endeavour application form, I'm reaching out to offer an interview for the Darwin Structures team. Interviews will be in person at the <a href="https://goo.gl/maps/qqnAzWfjxsNPzXa68">Noreen and Kenneth Murray Library</a> building at the Kings Buildings campus. 
+
+
+<table class="ng-scope" style="font-family:arial;"width: 470px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 90px;">
+<td class="ng-scope" style="height: 34px; width: 96px;" rowspan="6" valign="top"><a class="ng-scope" href="https://www.endeavourockets.com/" target="_blank" rel="noopener"><img src="https://live.staticflickr.com/65535/48871625052_a9ab38e9da_t.jpg" alt="Logo" width="80" border="0" /></a></td>
+<td style="text-align: left; vertical-align: top; padding: 0px; border-left: 1px solid #131f46; height: 90px; width: 10px;" rowspan="2">&nbsp;</td>
+<td style="height: 90px; width: 377px;">
+<table style="height: 90px; width: 364px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 6px;">
+<td style="font-size: 12px; width: 360px; height: 6px;" valign="top"><span style="color: #131f46;"><strong><span class="ng-binding">Jasper Day</span></strong></span>&nbsp;<span class="ng-scope">|&nbsp;</span>Structures Lead at <span style="color: #131f46;"><strong>endeavour</strong>&nbsp;</span> <br> BEng Mechanical Engineering | University of Edinburgh</td>
+</tr>
+<tr style="height: 18px;">
+<td style="font-size: 12px; width: 360px; height: 18px;" valign="top"><span class="ng-scope"><span style="color: #131f46;"><strong>e:</strong></span><span class="ng-binding">&nbsp;team@endeavourockets.com</span></span>&nbsp;<span class="ng-scope">|&nbsp;<span style="color: #131f46;"><strong>w:</strong></span><span style="text-decoration: underline;"><a style="color: #000000;" href="http://endeavourockets.com/" target="_blank" rel="noopener"><span class="ng-binding">&nbsp;endeavourockets.com</span></a></span></span><span class="ng-scope"><br /></span><span class="ng-scope"><span style="color: #131f46;"><strong>m:</strong></span><span class="ng-binding">&nbsp;+44 7597 262 566</span></span></td>
+</tr>
+<tr class="ng-scope" style="height: 6px;">
+<td style="width: 360px; height: 6px;" valign="bottom"><span class="ng-scope"><a href="https://www.facebook.com/endeavourockets" target="_blank" rel="noopener"><img src="https://live.staticflickr.com/65535/48876679117_20b3ea345b_t.jpg" alt="facebook icon" width="20" height="20" border="0" /></a>&nbsp;</span><span class="ng-scope"><a href="https://twitter.com/endeavourockets" target="_blank" rel="noopener"><img src="https://live.staticflickr.com/65535/48875945743_3d54ab5168_t.jpg" alt="twitter icon" width="20" height="20" border="0" /></a>&nbsp;</span><span class="ng-scope"><a href="https://www.linkedin.com/company/29277661/admin/" target="_blank" rel="noopener"><img src="https://live.staticflickr.com/65535/48876679077_063835e63f_t.jpg" alt="linkedin icon" width="20" height="20" border="0" /></a>&nbsp;</span><span class="ng-scope"><a href="https://www.instagram.com/endeavourockets/" target="_blank" rel="noopener"><img src="https://live.staticflickr.com/65535/48876482351_a767e075c4_t.jpg" alt="instagram icon" width="20" height="20" border="0" /></a>&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
