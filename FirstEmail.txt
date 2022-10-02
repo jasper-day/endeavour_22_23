@@ -1,0 +1,35 @@
+Structures team
+
+Known:
+
+- Jasper
+- Connor Q
+- Rory
+- Joe
+- Kiayas
+- Michal
+- Luke
+
+First message out to the team
+
+Hi everyone, and welcome to the Darwin structures team!
+
+We have an exciting year ahead of us, with plenty of designs to create and rockets to launch. Here are the first steps everyone needs to take:
+
+1. Join the Discord. The bulk of the communications for this team will take place on Discord, so it's essential that everyone joins the server as quickly as possible. Once you've joined, make sure that you set your nickname for the server to your actual name, to make it easier for us to find you! Also make sure that you enable notifications in the Darwin #Structures channel, where most of the inter-team communications will be taking place.
+
+2. Get inducted to the MakerSpace. There's a brand new workshop underneath the Eng Inn (Hudson Beare building) for the sole use of student engineering teams. They have drills, workbenches, 3D printers, and laser cutting, but you can't use the space if you haven't been inducted. You'll need to fill out this Google form, after which you'll be sent an invitation to create a Clustermarket account, where you can book all of the equipment and services. I'll talk more in our first meeting about what we'll be using the space for! The whole process takes a fairly long time to complete from applying to getting inducted so please get started on that now.
+
+3. Indicate your availability for the first weekly meeting. We'll talk there about scheduling the meetings to come. 
+
+Please complete these steps as quickly as possible. Once everyone is on the Discord, communication can be faster and more responsive. Although all of the meetings and workshops will be online, the Discord is still our primary method of out-of-hours communications. You can reach me there at any time under the account Jeepers#2595. 
+
+Finally, if you would like to get a head start on our first design tasks, you can download OpenRocket from their website here. As I mentioned in many of the interviews, OpenRocket is going to be our primary tool for performing parametric testing of our primary theoretical rocket designs. I'll be giving a more in-depth workshop on how to use OpenRocket, but it'll help if you have it on your computer and have spent some time playing around making designs. Start with a nosecone, add in body tubes and weights, and then start looking at the massive list of commercial motors available in the motor tab. See what kind of altitude you can get as you vary the different weights, fin designs, motors, etc! The technical documentation for OpenRocket is also one of the finest online introductions to thinking about aerodynamic rocket design; please read through it when you get the chance.
+
+With that said, congratulations again on joining the team! Let's make this year Endeavour's greatest yet.
+
+Best,
+
+Jasper
+
+[[Signature]]
