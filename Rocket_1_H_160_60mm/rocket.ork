@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.4" creator="OpenRocket 15.03">
+  <rocket>
+    <name>Rocket</name>
+    <motorconfiguration configid="a32a7d51-59f5-4ea6-87aa-90fc230352eb" default="true"/>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose cone</name>
+            <finish>smooth</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>0.2</length>
+            <thickness>0.002</thickness>
+            <shape>ellipsoid</shape>
+            <shapeclipped>false</shapeclipped>
+            <aftradius>auto</aftradius>
+            <aftshoulderradius>0.0</aftshoulderradius>
+            <aftshoulderlength>0.0</aftshoulderlength>
+            <aftshoulderthickness>0.0</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+
+            <subcomponents>
+              <masscomponent>
+                <name>Payload</name>
+                <position type="bottom">-0.0</position>
+                <packedlength>0.1</packedlength>
+                <packedradius>0.025</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.4</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+            </subcomponents>
+          </nosecone>
+
+          <bodytube>
+            <name>Body tube</name>
+            <finish>smooth</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>0.2</length>
+            <thickness>0.002</thickness>
+            <radius>auto</radius>
+
+            <subcomponents>
+              <bulkhead>
+                <name>Bulkhead</name>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="1200.0">Polycarbonate (Lexan)</material>
+                <length>0.005</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+              </bulkhead>
+
+              <tubecoupler>
+                <name>Tube coupler</name>
+                <position type="bottom">0.06</position>
+                <material type="bulk" density="1850.0">Fiberglass</material>
+                <length>0.06</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <thickness>0.002</thickness>
+              </tubecoupler>
+
+              <masscomponent>
+                <name>Avionics</name>
+                <position type="bottom">-0.0</position>
+                <packedlength>0.2</packedlength>
+                <packedradius>0.025</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.3</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+            </subcomponents>
+          </bodytube>
+
+          <bodytube>
+            <name>Body tube</name>
+            <finish>smooth</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>0.17</length>
+            <thickness>0.002</thickness>
+            <radius>0.03</radius>
+
+            <subcomponents>
+              <parachute>
+                <name>Drogue</name>
+                <position type="top">0.0</position>
+                <packedlength>0.04</packedlength>
+                <packedradius>0.025</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.067">Ripstop nylon</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>0.4</diameter>
+                <linecount>6</linecount>
+                <linelength>0.3</linelength>
+                <linematerial type="line" density="0.0018">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+
+              <parachute>
+                <name>Main</name>
+                <position type="top">0.04</position>
+                <packedlength>0.06</packedlength>
+                <packedradius>0.025</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.067">Ripstop nylon</material>
+                <deployevent>altitude</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>0.9</diameter>
+                <linecount>6</linecount>
+                <linelength>0.3</linelength>
+                <linematerial type="line" density="0.0018">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+            </subcomponents>
+          </bodytube>
+
+          <bodytube>
+            <name>Body tube</name>
+            <finish>smooth</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>0.4</length>
+            <thickness>0.0015</thickness>
+            <radius>0.03</radius>
+            <motormount>
+              <ignitionevent>automatic</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>0.0</overhang>
+              <motor configid="a32a7d51-59f5-4ea6-87aa-90fc230352eb">
+                <type>reload</type>
+                <manufacturer>Cesaroni Technology</manufacturer>
+                <digest>7e4e1deb3794f8f3bf7d71a3a503ec3a</digest>
+                <designation>H160-CL</designation>
+                <diameter>0.029</diameter>
+                <length>0.32</length>
+                <delay>12.0</delay>
+              </motor>
+            </motormount>
+
+            <subcomponents>
+              <freeformfinset>
+                <name>Freeform fin set</name>
+                <position type="bottom">0.0</position>
+                <finish>smooth</finish>
+                <material type="bulk" density="1850.0">Fiberglass</material>
+                <fincount>4</fincount>
+                <rotation>0.0</rotation>
+                <thickness>0.003</thickness>
+                <crosssection>rounded</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.01</filletradius>
+                <filletmaterial type="bulk" density="1850.0">Fiberglass</filletmaterial>
+                <finpoints>
+                  <point x="0.0" y="0.0"/>
+                  <point x="0.029711881510416673" y="0.030427083333333334"/>
+                  <point x="0.07310354817708334" y="0.030691666666666666"/>
+                  <point x="0.0861466796875" y="0.0"/>
+                </finpoints>
+              </freeformfinset>
+
+              <engineblock>
+                <name>Engine block</name>
+                <position type="bottom">0.001</position>
+                <material type="bulk" density="2700.0">Aluminum</material>
+                <length>0.006</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <thickness>0.013999999999999997</thickness>
+              </engineblock>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.1</position>
+                <material type="bulk" density="630.0">Plywood (birch)</material>
+                <length>0.005</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>0.0145</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.3</position>
+                <material type="bulk" density="630.0">Plywood (birch)</material>
+                <length>0.005</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>0.0145</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.2</position>
+                <material type="bulk" density="630.0">Plywood (birch)</material>
+                <length>0.005</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>0.0145</innerradius>
+              </centeringring>
+
+              <bulkhead>
+                <name>Bulkhead</name>
+                <position type="top">0.0</position>
+                <material type="bulk" density="1200.0">Polycarbonate (Lexan)</material>
+                <length>0.005</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+              </bulkhead>
+
+              <tubecoupler>
+                <name>Tube coupler</name>
+                <position type="top">-0.06</position>
+                <material type="bulk" density="1850.0">Fiberglass</material>
+                <length>0.06</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <thickness>0.002</thickness>
+              </tubecoupler>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="uptodate">
+      <name>Simulation 1</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>a32a7d51-59f5-4ea6-87aa-90fc230352eb</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="986.15" maxvelocity="148.53" maxacceleration="160.71" maxmach="0.43739" timetoapogee="14.035" flighttime="90.995" groundhitvelocity="6.6282" launchrodvelocity="17.132" deploymentvelocity="16.479">
+      </flightdata>
+    </simulation>
+  </simulations>
+</openrocket>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.4" creator="OpenRocket 15.03">
+  <rocket>
+    <name>Rocket</name>
+    <motorconfiguration configid="21466ef5-f64b-4374-be40-8d9bec573642"/>
+    <motorconfiguration configid="e071b1f3-fd35-473f-bfef-83dfa96cb600"/>
+    <motorconfiguration configid="601976fc-0881-4751-b784-8ab82207ce5f"/>
+    <motorconfiguration configid="75cd52a7-9828-42ff-99d7-66b794cacc76"/>
+    <motorconfiguration configid="87815b0d-16ff-4125-a2b5-dc09ad742d73" default="true"/>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose cone</name>
+            <finish>normal</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>0.234</length>
+            <thickness>0.002</thickness>
+            <shape>ellipsoid</shape>
+            <shapeclipped>false</shapeclipped>
+            <aftradius>0.029</aftradius>
+            <aftshoulderradius>0.0</aftshoulderradius>
+            <aftshoulderlength>0.0</aftshoulderlength>
+            <aftshoulderthickness>0.0</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+
+            <subcomponents>
+              <masscomponent>
+                <name>Unspecified</name>
+                <position type="top">0.04</position>
+                <packedlength>0.6</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.225</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+            </subcomponents>
+          </nosecone>
+
+          <bodytube>
+            <name>Body tube</name>
+            <finish>normal</finish>
+            <material type="bulk" density="1850.0">Fiberglass</material>
+            <length>1.0</length>
+            <thickness>0.0015</thickness>
+            <radius>auto</radius>
+            <motormount>
+              <ignitionevent>automatic</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>0.0</overhang>
+              <motor configid="21466ef5-f64b-4374-be40-8d9bec573642">
+                <type>reload</type>
+                <manufacturer>Loki Research</manufacturer>
+                <digest>ab08893e9143f2918b339e8887828dc7</digest>
+                <designation>H100-SP</designation>
+                <diameter>0.038</diameter>
+                <length>0.178</length>
+                <delay>5.0</delay>
+              </motor>
+              <motor configid="e071b1f3-fd35-473f-bfef-83dfa96cb600">
+                <type>reload</type>
+                <manufacturer>Loki Research</manufacturer>
+                <digest>5646c3a17f497135d944eefbb99087ab</digest>
+                <designation>H90-LR</designation>
+                <diameter>0.038</diameter>
+                <length>0.178</length>
+                <delay>14.0</delay>
+              </motor>
+              <motor configid="601976fc-0881-4751-b784-8ab82207ce5f">
+                <type>reload</type>
+                <manufacturer>Cesaroni Technology</manufacturer>
+                <digest>edb3c9a910f31de6164ba961a9c141af</digest>
+                <designation>H400-Vmax</designation>
+                <diameter>0.038</diameter>
+                <length>0.186</length>
+                <delay>6.0</delay>
+              </motor>
+              <motor configid="75cd52a7-9828-42ff-99d7-66b794cacc76">
+                <type>hybrid</type>
+                <manufacturer>Propulsion Polymers</manufacturer>
+                <digest>a87b6aaa8312c5d697a25c85d9c3afe2</digest>
+                <designation>H70</designation>
+                <diameter>0.038</diameter>
+                <length>0.462</length>
+                <delay>none</delay>
+              </motor>
+              <motor configid="87815b0d-16ff-4125-a2b5-dc09ad742d73">
+                <type>reload</type>
+                <manufacturer>AeroTech</manufacturer>
+                <digest>4fcdfc112c1d434eea1b75da65741e12</digest>
+                <designation>H170M</designation>
+                <diameter>0.038</diameter>
+                <length>0.191</length>
+                <delay>6.0</delay>
+              </motor>
+            </motormount>
+
+            <subcomponents>
+              <trapezoidfinset>
+                <name>Trapezoidal fin set</name>
+                <position type="bottom">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="1850.0">Fiberglass</material>
+                <fincount>3</fincount>
+                <rotation>0.0</rotation>
+                <thickness>0.003</thickness>
+                <crosssection>rounded</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.1</rootchord>
+                <tipchord>0.07</tipchord>
+                <sweeplength>0.019999999999999997</sweeplength>
+                <height>0.04</height>
+              </trapezoidfinset>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="uptodate">
+      <name>Simulation 1</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>21466ef5-f64b-4374-be40-8d9bec573642</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="758.43" maxvelocity="139.34" maxacceleration="112.57" maxmach="0.4102" timetoapogee="12.071" flighttime="54.621" groundhitvelocity="35.838" launchrodvelocity="13.758">
+      </flightdata>
+    </simulation>
+
+    <simulation status="uptodate">
+      <name>Simulation 3</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>e071b1f3-fd35-473f-bfef-83dfa96cb600</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="924.13" maxvelocity="154.21" maxacceleration="109.47" maxmach="0.45436" timetoapogee="13.254" flighttime="65.804" groundhitvelocity="35.685" launchrodvelocity="15.196">
+      </flightdata>
+    </simulation>
+
+    <simulation status="uptodate">
+      <name>Simulation 4</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>601976fc-0881-4751-b784-8ab82207ce5f</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="1005.6" maxvelocity="212.14" maxacceleration="371.76" maxmach="0.62384" timetoapogee="12.841" flighttime="76.591" groundhitvelocity="30.583" launchrodvelocity="25.1">
+      </flightdata>
+    </simulation>
+
+    <simulation status="uptodate">
+      <name>Simulation 5</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>75cd52a7-9828-42ff-99d7-66b794cacc76</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="875.59" maxvelocity="134.12" maxacceleration="99.006" maxmach="0.39519" timetoapogee="13.538" flighttime="60.988" groundhitvelocity="36.861" launchrodvelocity="12.552">
+      </flightdata>
+    </simulation>
+
+    <simulation status="uptodate">
+      <name>Simulation 6</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>87815b0d-16ff-4125-a2b5-dc09ad742d73</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="1232.7" maxvelocity="225.93" maxacceleration="158.56" maxmach="0.66562" timetoapogee="14.318" flighttime="94.668" groundhitvelocity="29.02" launchrodvelocity="17.399">
+      </flightdata>
+    </simulation>
+  </simulations>
+</openrocket>
