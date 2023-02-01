@@ -1,0 +1,20 @@
+\documentclass[convert]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{shapes, positioning}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\small,thick];
+
+\node[draw, fill=gray!10] (-5,0) rectangle (5,-10);
+\node[draw,fill=white] (-4,0) rectangle (4,-10);
+\draw[dashed] (0,1) -- (0,-11);
+\draw[latex-latex] (-6,0) -- node[pos=0.4, fill=white, inner sep=2pt ]{}
+
+
+
+\end{tikzpicture}
+
+\end{document}
